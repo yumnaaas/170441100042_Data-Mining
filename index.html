@@ -1,0 +1,769 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="A Material about Data Mining">
+      
+      
+        <link rel="canonical" href="https://github.com/yumnaaas/170441100042_Data-Mining/">
+      
+      
+        <meta name="author" content="yumnaaas">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.2.0">
+    
+    
+      
+        <title>Data Mining</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.750b69bd.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "None", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#pengertian-fungsi-proses-dan-tahapan-data-mining" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://github.com/yumnaaas/170441100042_Data-Mining" title="Data Mining" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Data Mining
+            </span>
+            <span class="md-header-nav__topic">
+              Pendahuluan
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/yumnaaas/170441100042_Data-Mining" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    yumnaaas
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+<nav class="md-tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="." title="Pendahuluan" class="md-tabs__link md-tabs__link--active">
+        Pendahuluan
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://github.com/yumnaaas/170441100042_Data-Mining" title="Data Mining" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Data Mining
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/yumnaaas/170441100042_Data-Mining" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    yumnaaas
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Pendahuluan
+      </label>
+    
+    <a href="." title="Pendahuluan" class="md-nav__link md-nav__link--active">
+      Pendahuluan
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pengertian-data-mining" title="Pengertian Data Mining" class="md-nav__link">
+    Pengertian Data Mining
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fungsi-data-mining" title="Fungsi Data Mining" class="md-nav__link">
+    Fungsi Data Mining
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proses-data-mining" title="Proses Data Mining" class="md-nav__link">
+    Proses Data Mining
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-deskripsi" title="a. Deskripsi" class="md-nav__link">
+    a. Deskripsi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-prediksi" title="b. Prediksi" class="md-nav__link">
+    b. Prediksi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-estimasi" title="c. Estimasi" class="md-nav__link">
+    c. Estimasi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-klasifikasi" title="d. Klasifikasi" class="md-nav__link">
+    d. Klasifikasi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-clustering" title="e. Clustering" class="md-nav__link">
+    e. Clustering
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#f-asosiasi" title="f. Asosiasi" class="md-nav__link">
+    f. Asosiasi
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tahapan-data-mining" title="Tahapan Data Mining" class="md-nav__link">
+    Tahapan Data Mining
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-data-selection" title="1. Data selection" class="md-nav__link">
+    1. Data selection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pre-processing-cleaning" title="2. Pre-processing / cleaning" class="md-nav__link">
+    2. Pre-processing / cleaning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-transformation" title="3. Transformation" class="md-nav__link">
+    3. Transformation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-data-mining" title="4. Data mining" class="md-nav__link">
+    4. Data mining
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-interpretation-evalution" title="5. Interpretation / evalution" class="md-nav__link">
+    5. Interpretation / evalution
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="knn/" title="K-Nearest Neighbors" class="md-nav__link">
+      K-Nearest Neighbors
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="Pohon Keputusan/" title="Decision Tree" class="md-nav__link">
+      Decision Tree
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="Biodata/" title="Biodata Penulis" class="md-nav__link">
+      Biodata Penulis
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pengertian-data-mining" title="Pengertian Data Mining" class="md-nav__link">
+    Pengertian Data Mining
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fungsi-data-mining" title="Fungsi Data Mining" class="md-nav__link">
+    Fungsi Data Mining
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proses-data-mining" title="Proses Data Mining" class="md-nav__link">
+    Proses Data Mining
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-deskripsi" title="a. Deskripsi" class="md-nav__link">
+    a. Deskripsi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-prediksi" title="b. Prediksi" class="md-nav__link">
+    b. Prediksi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-estimasi" title="c. Estimasi" class="md-nav__link">
+    c. Estimasi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-klasifikasi" title="d. Klasifikasi" class="md-nav__link">
+    d. Klasifikasi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-clustering" title="e. Clustering" class="md-nav__link">
+    e. Clustering
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#f-asosiasi" title="f. Asosiasi" class="md-nav__link">
+    f. Asosiasi
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tahapan-data-mining" title="Tahapan Data Mining" class="md-nav__link">
+    Tahapan Data Mining
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-data-selection" title="1. Data selection" class="md-nav__link">
+    1. Data selection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pre-processing-cleaning" title="2. Pre-processing / cleaning" class="md-nav__link">
+    2. Pre-processing / cleaning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-transformation" title="3. Transformation" class="md-nav__link">
+    3. Transformation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-data-mining" title="4. Data mining" class="md-nav__link">
+    4. Data mining
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-interpretation-evalution" title="5. Interpretation / evalution" class="md-nav__link">
+    5. Interpretation / evalution
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="pengertian-fungsi-proses-dan-tahapan-data-mining">Pengertian, Fungsi, Proses dan Tahapan Data Mining<a class="headerlink" href="#pengertian-fungsi-proses-dan-tahapan-data-mining" title="Permanent link">&para;</a></h1>
+<h3 id="pengertian-data-mining">Pengertian Data Mining<a class="headerlink" href="#pengertian-data-mining" title="Permanent link">&para;</a></h3>
+<p>Data Mining adalah proses yang menggunakan teknik statistik, matematika, kecerdasan buatan, </p>
+<p>machine learning</p>
+<p>untuk mengekstraksi dan mengidentifikasi informasi yang bermanfaat dan pengetahuan yang terkait dari berbagai database besar (Turban dkk. 2005). Terdapat beberapa istilah lain yang memiliki makna sama dengan data mining, yaitu </p>
+<p>Knowledge discovery in databases (KDD), ekstraksi pengetahuan (knowledge extraction), Analisa data/pola (data/pattern analysis), kecerdasan bisnis (business intelligence) dan data archaeology dan data dredging (Larose, 2005)</p>
+<p>Kemampuan Data mining untuk mencari informasi bisnis yang berharga dari basis data yang sangat besar, dapat dianalogikan dengan penambangan logam mulia dari lahan sumbernya, teknologi ini dipakai untuk :</p>
+<ol>
+<li>Prediksi trend dan sifat-sifat bisnis, dimana data mining mengotomatisasi proses pencarian informasi pemprediksi di dalam basis data yang besar. </li>
+<li>Penemuan pola-pola yang tidak diketahui sebelumnya, dimana data mining menyapu basis data, kemudian mengidentifikasi pola-pola yang sebelumnya tersembunyi dalam satu sapuan. </li>
+<li>Data mining berguna untuk membuat keputusan yang kritis, terutama dalam strategi.</li>
+</ol>
+<p>Berikut ini beberapa definisi data mining dari beberapa sumber (Larose, 2005):</p>
+<ul>
+<li>Data mining adalah proses menemukan sesuatu yang bermakna dari suatu korelasi baru, pola dan tren yang ada dengan cara memilah-milah data berukuran besar yang disimpan dalam repositori, menggunakan teknologi pengenalan pola serta teknik matematika dan statistik. </li>
+<li>Data mining adalah analisis pengamatan database untuk menemukan hubungan yang tidak terduga dan untuk meringkas data dengan cara atau metode baru yang dapat dimengerti dan bermanfaat kepada pemilik data.</li>
+<li>Data mining merupakan bidang ilmu interdisipliner yang menyatukan teknik pembelajaran dari mesin (machine learning), pengenalan pola (pattern recognition), statistik, database, dan visualisasi untuk mengatasi masalah ekstraksi informasi dari basis data yang besar. </li>
+<li>Data mining diartikan sebagai suatu proses ekstraksi informasi berguna dan potensial dari sekumpulan data yang terdapat secara implisit dalam suatu basis data.</li>
+</ul>
+<h3 id="fungsi-data-mining">Fungsi Data Mining<a class="headerlink" href="#fungsi-data-mining" title="Permanent link">&para;</a></h3>
+<p>Data mining mempunyai fungsi yang penting untuk membantu mendapatkan informasi yang berguna serta meningkatkan pengetahuan bagi pengguna. Pada dasarnya, data mining mempunyai empat fungsi dasar yaitu:</p>
+<ol>
+<li><strong>Fungsi Prediksi (prediction)</strong>. Proses untuk menemukan pola dari data dengan menggunakan beberapa variabel untuk memprediksikan variabel lain yang tidak diketahui jenis atau nilainya.</li>
+<li><strong>Fungsi Deskripsi (description)</strong>. Proses untuk menemukan suatu karakteristik penting dari data dalam suatu basis data. </li>
+<li><strong>Fungsi Klasifikasi (classification)</strong>. Klasifikasi merupakan suatu proses untuk menemukan model atau fungsi untuk menggambarkan class atau konsep dari suatu data. Proses yang digunakan untuk mendeskripsikan data yang penting serta dapat meramalkan kecenderungan data pada masa depan. </li>
+<li><strong>Fungsi Asosiasi (association)</strong>. Proses ini digunakan untuk menemukan suatu hubungan yang terdapat pada nilai atribut dari sekumpulan data.</li>
+</ol>
+<h3 id="proses-data-mining">Proses Data Mining<a class="headerlink" href="#proses-data-mining" title="Permanent link">&para;</a></h3>
+<p>Proses yang umumnya dilakukan oleh data mining antara lain: deskripsi, prediksi, estimasi, klasifikasi, clustering dan asosiasi. Secara rinci proses data mining dijelaskan sebagai berikut (Larose, 2005):</p>
+<h4 id="a-deskripsi">a. Deskripsi<a class="headerlink" href="#a-deskripsi" title="Permanent link">&para;</a></h4>
+<p>Deskripsi bertujuan untuk mengidentifikasi pola yang muncul secara berulang pada suatu data dan mengubah pola tersebut menjadi aturan dan kriteria yang dapat mudah dimengerti oleh para ahli pada domain aplikasinya. Aturan yang dihasilkan harus mudah dimengerti agar dapat dengan efektif meningkatkan tingkat pengetahuan (knowledge) pada sistem. Tugas deskriptif merupakan tugas data mining yang sering dibutuhkan pada teknik postprocessing untuk melakukan validasi dan menjelaskan hasil dari proses data mining. Postprocessing merupakan proses yang digunakan untuk memastikan hanya hasil yang valid dan berguna yang dapat digunakan oleh pihak yang berkepentingan.</p>
+<h4 id="b-prediksi">b. Prediksi<a class="headerlink" href="#b-prediksi" title="Permanent link">&para;</a></h4>
+<p>Prediksi memiliki kemiripan dengan klasifikasi, akan tetapi data diklasifikasikan berdasarkan perilaku atau nilai yang diperkirakan pada masa yang akan datang. Contoh dari tugas prediksi misalnya untuk memprediksikan adanya pengurangan jumlah pelanggan dalam waktu dekat dan prediksi harga saham dalam tiga bulan yang akan datang.</p>
+<h4 id="c-estimasi">c. Estimasi<a class="headerlink" href="#c-estimasi" title="Permanent link">&para;</a></h4>
+<p>Estimasi hampir sama dengan prediksi, kecuali variabel target estimasi lebih ke arah numerik dari pada ke arah kategori. Model dibangun menggunakan record lengkap yang menyediakan nilai dari variabel target sebagai nilai prediksi. Selanjutnya, pada peninjauan berikutnya estimasi nilai dari variabel target dibuat berdasarkan nilai variabel prediksi. Sebagai contoh, akan dilakukan estimasi tekanan darah sistolik pada pasien rumah sakit berdasarkan umur pasien, jenis kelamin, berat badan, dan level sodium darah. Hubungan antara tekanan darah sistolik dan nilai variabel prediksi dalam proses pembelajaran akan menghasilkan model estimasi.</p>
+<h4 id="d-klasifikasi">d. Klasifikasi<a class="headerlink" href="#d-klasifikasi" title="Permanent link">&para;</a></h4>
+<p>Klasifikasi merupakan proses menemukan sebuah model atau fungsi yang mendeskripsikan dan membedakan data ke dalam kelas-kelas. Klasifikasi melibatkan proses pemeriksaan karakteristik dari objek dan memasukkan objek ke dalam salah satu kelas yang sudah didefinisikan sebelumnya.</p>
+<h4 id="e-clustering">e. Clustering<a class="headerlink" href="#e-clustering" title="Permanent link">&para;</a></h4>
+<p>Clustering merupakan pengelompokan data tanpa berdasarkan kelas data tertentu ke dalam kelas objek yang sama. Sebuah kluster adalah kumpulan record yang memiliki kemiripan suatu dengan yang lainnya dan memiliki ketidakmiripan dengan record dalam kluster lain. Tujuannya adalah untuk menghasilkan pengelompokan objek yang mirip satu sama lain dalam kelompok-kelompok. Semakin besar kemiripan objek dalam suatu cluster dan semakin besar perbedaan tiap cluster maka kualitas analisis cluster semakin baik.</p>
+<h4 id="f-asosiasi">f. Asosiasi<a class="headerlink" href="#f-asosiasi" title="Permanent link">&para;</a></h4>
+<p>Tugas asosiasi dalam data mining adalah menemukan atribut yang muncul dalam suatu waktu. Dalam dunia bisnis lebih umum disebut analisis keranjang belanja (market basket analisys). Tugas asosiasi berusaha untuk mengungkap aturan untuk mengukur hubungan antara dua atau lebih atribut.</p>
+<h3 id="tahapan-data-mining">Tahapan Data Mining<a class="headerlink" href="#tahapan-data-mining" title="Permanent link">&para;</a></h3>
+<p>Tahapan yang dilakukan pada proses data mining diawali dari seleksi data dari data sumber ke data target, tahap preprocessing untuk memperbaiki kualitas data, transformasi, data mining serta tahap interpretasi dan evaluasi yang menghasilkan output berupa pengetahuan baru yang diharapkan memberikan kontribusi yang lebih baik. Secara detail dijelaskan sebagai berikut (Fayyad, 1996):</p>
+<p><img alt="" src="assets/images/dm.jpg" /></p>
+<h4 id="1-data-selection">1. Data selection<a class="headerlink" href="#1-data-selection" title="Permanent link">&para;</a></h4>
+<p>Pemilihan (seleksi) data dari sekumpulan data operasional perlu dilakukan sebelum tahap penggalian informasi dalam KDD dimulai. Data hasil seleksi yang digunakan untuk proses data mining, disimpan dalam suatu berkas, terpisah dari basis data operasional.</p>
+<h4 id="2-pre-processing-cleaning">2. Pre-processing / cleaning<a class="headerlink" href="#2-pre-processing-cleaning" title="Permanent link">&para;</a></h4>
+<p>Sebelum proses data mining dapat dilaksanakan, perlu dilakukan proses cleaning pada data yang menjadi fokus KDD. Proses cleaning mencakup antara lain membuang duplikasi data, memeriksa data yang inkonsisten, dan memperbaiki kesalahan pada data.</p>
+<h4 id="3-transformation">3. Transformation<a class="headerlink" href="#3-transformation" title="Permanent link">&para;</a></h4>
+<p>Coding adalah proses transformasi pada data yang telah dipilih, sehingga data tersebut sesuai untuk proses data mining. Proses coding dalam KDD merupakan proses kreatif dan sangat tergantung pada jenis atau pola informasi yang akan dicari dalam basis data.</p>
+<h4 id="4-data-mining">4. Data mining<a class="headerlink" href="#4-data-mining" title="Permanent link">&para;</a></h4>
+<p>Data mining adalah proses mencari pola atau informasi menarik dalam data terpilih dengan menggunakan teknik atau metode tertentu. Teknik, metode, atau algoritma dalam data mining sangat bervariasi. Pemilihan metode atau algoritma yang tepat sangat bergantung pada tujuan dan proses KDD secara keseluruhan.</p>
+<h4 id="5-interpretation-evalution">5. Interpretation / evalution<a class="headerlink" href="#5-interpretation-evalution" title="Permanent link">&para;</a></h4>
+<p>Pola informasi yang dihasilkan dari proses data mining perlu ditampilkan dalam bentuk yang mudah dimengerti oleh pihak yang berkepentingan. Tahap ini merupakan bagian dari proses KDD yang disebut interpretation. Tahap ini mencakup pemeriksaan apakah pola atau informasi yang ditemukan bertentangan dengan fakta atau hipotesis yang ada sebelumnya.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="knn/" title="K-Nearest Neighbors" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                K-Nearest Neighbors
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 yumnaaas
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/yumnaaas" class="md-footer-social__link fa fa-github-alt"></a>
+    
+      <a href="https://instagram.com/asihash04" class="md-footer-social__link fa fa-instagram"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.8c0d971c.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+    
+  </body>
+</html>
